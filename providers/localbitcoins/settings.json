@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "createApp": {
+      "url": "https://localbitcoins.com/accounts/api/new-apiauth",
+            "image": "config.png"
+    },
+    "copyingKey": {
+      "url": "https://localbitcoins.com/accounts/api",
+            "image": "keys.png"
+    },
+    "install": {
+      "href": {
+        "provider": "https://localbitcoins.com",
+        "docs": "https://localbitcoins.com/api-docs"
+      }
+    },
+    "sample": {
+        "method": "get",
+        "url": "/api/myself/"
+    }
+  }
+}

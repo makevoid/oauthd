@@ -1,0 +1,28 @@
+{
+  "name": "Localbitcoins",
+  "desc": "",
+  "url": "https://localbitcoins.com/api/",
+  "oauth2": {
+    "authorize": "https://localbitcoins.com/oauth2/authorize",
+    "access_token": "https://coinbase.com/oauth2/access_token/",
+    "parameters": {
+      "client_id": "string",
+      "client_secret": "string",
+      "scope": {
+        "values": {
+          "read": "Read scope",
+          "money": "Money scope",
+          "money_pin": "Money_PIN scope",
+          "write": "Write scope",
+        },
+        "separator": " "
+      }
+    }
+  },
+  "href": {
+    "keys": "https://localbitcoins.com/accounts/api/",
+    "docs": "https://localbitcoins.com/api-docs",
+    "apps": "https://localbitcoins.com/accounts/api/",
+    "provider": "https://localbitcoins.com/"
+  }
+}
